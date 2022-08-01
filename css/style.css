@@ -1,34 +1,49 @@
+.dTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%
+}
 .title {
     text-align: center;
     font-size: 4vw;
     font-family: 'BhuTuka Expanded One', cursive;
-    width: 100vw;
+    width: 50%;
 }
 
 .term {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: solid 5px black;
     border-radius: 15px;
     text-align: center;
-    font-size: 2vw;
+    font-size: 3vw;
     margin: auto;
-    width: 80vw;
+    height: 12vw;
+    width: 40vw;
     margin-top: 100px;
 }
 
+
 .definition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: solid 5px black;
     border-radius: 15px;
     text-align: center;
-    font-size: 2vw;
+    font-size: 3vw;
     margin: auto;
-    width: 80vw;
+    height: 12vw;
+    width: 40vw;
     margin-top: 100px;
-    display: none
 }
 
 .button {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 75px;
 }
 
 button {
@@ -36,8 +51,4 @@ button {
     border-radius: 15px;
     font-size: 2.5vw;
     padding: 2vw;
-}
-
-button:hover {
-    transform: scale(1.1);
 }
